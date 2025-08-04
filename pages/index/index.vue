@@ -4,20 +4,15 @@
 	</view>
 </template>
 
-<script>
-	export default {
-		data() {
-			return {
-				title: '122222'
-			}
-		},
-		onLoad() {
-
-		},
-		methods: {
-
-		}
-	}
+<script setup>
+	import { getBannerData } from '../../api/api';
+	import {onLoad} from '@dcloudio/uni-app'
+	
+	onLoad(()=>{
+		getBannerData().then(res=>{
+			console.log(res,"res")
+		})
+	})
 </script>
 
 <style>
