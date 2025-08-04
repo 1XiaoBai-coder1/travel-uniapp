@@ -1,1 +1,1 @@
-<view class="content"><image class="logo" src="{{a}}"></image><view class="text-area"><text class="title">{{b}}</text></view></view>
+<view class="content"><up-button wx:if="{{a}}" u-i="ca8c98e4-0" bind:__l="__l" u-p="{{a}}"></up-button></view>

@@ -1,0 +1,1 @@
+<view><text>11111</text><up-button wx:if="{{a}}" u-i="69872088-0" bind:__l="__l" u-p="{{a}}"></up-button></view>

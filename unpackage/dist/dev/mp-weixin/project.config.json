@@ -18,7 +18,7 @@
     }
   },
   "compileType": "miniprogram",
-  "libVersion": "2.25.3",
+  "libVersion": "3.9.0",
   "appid": "touristappid",
   "projectname": "vector-demo",
   "condition": {},
